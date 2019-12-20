@@ -1,0 +1,58 @@
+main {
+  padding-top: 90px;
+  text-align: center;
+}
+main h2 {
+  margin-bottom: 68px;
+  font-size: 30px;
+}
+main .logindiv {
+  margin: auto;
+  width: 300px;
+  overflow: hidden;
+}
+main .logindiv p:nth-child(1) {
+  float: left;
+  color: #999;
+}
+main .logindiv p:nth-child(2) {
+  color: #999;
+  float: right;
+}
+main .logindiv p:nth-child(2) a {
+  color: orangered;
+}
+main form {
+  position: relative;
+  margin-top: 20px;
+}
+main form section {
+  margin-bottom: 20px;
+}
+main form label {
+  display: inline-block;
+  width: 98px;
+}
+main form input {
+  width: 300px;
+  height: 46px;
+  border: 1px solid #e5e5e5;
+  color: #999;
+}
+main form .verify {
+  position: relative;
+  left: -85px;
+}
+main form .verify input {
+  width: 128px;
+}
+main form .v {
+  position: absolute;
+  right: 320px;
+  bottom: 65px;
+  width: 130px;
+  height: 50px;
+  background: red;
+}
+
+/*# sourceMappingURL=main.css.map */

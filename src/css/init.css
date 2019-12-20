@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a, span, img {
+  display: inline-block;
+}
+
+body {
+  background: #f7f7f7;
+}
+
+.clerafloat:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=init.css.map */

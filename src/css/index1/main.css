@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  list-style-type: none; }
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto; }
+
+a, span, img {
+  display: inline-block; }
+
+body {
+  background: #f7f7f7; }
+
+.clerafloat:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden; }
+
+.tb-sim, .tb-inSim {
+  overflow: hidden; }
+.tb-sim h3, .tb-inSim h3 {
+  font-size: 24px;
+  margin: 20px 0; }
+.tb-sim li, .tb-inSim li {
+  float: left; }
+.tb-sim a, .tb-inSim a {
+  width: 227px;
+  height: 360px;
+  margin-right: 16px;
+  background: #fff;
+  border: 1px solid #fff;
+  transition: all 1s; }
+.tb-sim a:hover, .tb-inSim a:hover {
+  border: 1px solid orangered; }
+.tb-sim a h4, .tb-inSim a h4 {
+  font-size: 16px;
+  margin: 30px 0 8px 30px; }
+.tb-sim a p, .tb-inSim a p {
+  margin: 0 0 8px 30px;
+  color: #999; }
+.tb-sim a .price, .tb-inSim a .price {
+  margin: 0 0 40px 30px;
+  color: orangered; }
+.tb-sim a img:not(.notImg), .tb-inSim a img:not(.notImg) {
+  margin-left: 10px;
+  width: 197px;
+  height: 190px; }
+.tb-sim .notmargin, .tb-inSim .notmargin {
+  margin: 0; }
+
+.tb-use {
+  overflow: hidden; }
+.tb-use h2 {
+  margin: 20px;
+  font-size: 26px; }
+.tb-use section {
+  overflow: hidden;
+  width: 280px;
+  height: 420px;
+  border-top: 1px solid red;
+  background: #fff;
+  margin: 0 26px 50px 0;
+  float: left; }
+.tb-use section:last-of-type {
+  margin-right: 0; }
+.tb-use section h3 {
+  color: orangered;
+  text-align: center;
+  margin: 20px 0; }
+.tb-use section article {
+  width: 880px; }
+.tb-use section article a {
+  width: 280px;
+  text-align: center; }
+.tb-use section article a p:nth-child(2) {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 50px; }
+.tb-use section article a p:nth-child(1) {
+  font-size: 22px; }
+.tb-use section .btnlist {
+  margin-top: 10px;
+  text-align: center; }
+.tb-use section .btnlist span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #999; }
+.tb-use section .btnlist span:hover {
+  border: 1px solid orangered;
+  background: #fff;
+  cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */

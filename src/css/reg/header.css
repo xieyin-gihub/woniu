@@ -1,0 +1,16 @@
+.wrap {
+  width: 1000px;
+  margin-top: 20px;
+}
+
+header {
+  height: 51px;
+}
+header span {
+  vertical-align: middle;
+}
+header img {
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=header.css.map */

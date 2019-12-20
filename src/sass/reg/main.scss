@@ -1,0 +1,56 @@
+main{
+  padding-top: 90px;
+  text-align: center;
+  h2{
+    margin-bottom:68px;
+    font-size: 30px;
+  }
+  .logindiv{
+    margin: auto;
+    width: 300px;
+    overflow: hidden;
+    p:nth-child(1){
+      float: left;
+      color: #999;
+    }
+    p:nth-child(2){
+      color: #999;
+      float:right;
+      a{
+        color: orangered;
+      }
+    }
+  }
+  form{
+    position: relative;
+    section{
+      margin-bottom: 20px;
+    }
+    margin-top: 20px;
+    label{
+      display: inline-block;
+      width: 98px;
+    }
+    input{
+      width: 300px;
+      height: 46px;
+      border:1px solid #e5e5e5;
+      color: #999;
+    }
+    .verify{
+      position: relative;
+      left:-85px;
+      input{
+        width: 128px;
+      }
+    }
+    .v{
+      position: absolute;
+      right: 320px;
+      bottom: 65px;
+      width: 130px;
+      height: 50px;
+      background: red;
+    }
+  }
+}
